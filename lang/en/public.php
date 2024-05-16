@@ -1,0 +1,123 @@
+<?php
+    return [
+        'navtext1' => 'who we are',
+        'navtext2' => 'our panelist',
+        'navtext3' => 'leaders',
+        'navtext4' => 'media',
+        'navtext5' => 'services',
+        'navtext6' => 'database',
+        'navtext7' => 'blog',
+        'navtext8' => 'contact us',
+        'navtext9' => 'Our Activities',
+        'navdrop1' => 'News Events',
+        'navdrop2' => 'Recent Activities',
+        'navdrop3' => 'Photo Gallery',
+        'navdrop4' => 'Video Gallery',
+        'navdrop5' => 'Training & Development',
+        'navdrop6' => 'Fair & Exhibition',
+        'navdrop7' => 'Member',
+        'navdrop8' => 'Factory',
+        'navdrop9' => 'Buyer',
+        'menu' => 'menu',
+
+        'introducingt1' => 'Introducing the Buyers Council',
+        'introducingt2' => 'a pivotal panel represents a collective of passionate and experienced Buying House Owners',
+        'readmorebutton' => 'Read More',
+        'introducingt3' => 'Our Values',
+        'introducingt4' => 'Integrity, collaboration, and excellence are the cornerstones of our organization...',
+        'introducingt5' => 'Our Mission',
+        'introducingt6' => 'At the core of our mission lies a steadfast commitment to empower Buying House Owners by fostering innovation, collaboration, and efficiency in business operations..',
+        'introducingt7' => 'What We Do',
+        'introducingt8' => 'As the Buyers Council, we serve as a platform for knowledge exchange, networking, and professional and personal development and leadership cultivation...',
+
+        'swipertexttitle' => 'Leaders',
+        'name1' => 'Kazi Iftequre Hossain',
+        'position1' => 'CEO, Total Apparel',
+        'name2' => 'Md.Aminul Islam',
+        'position2' => 'CEO, City Apparel Text. Co.',
+        'name3' => 'Kazi Armanul Haque',
+        'position3' => 'CEO, Startext Ltd.',
+        'name4' => 'Wahidur Rahman',
+        'position4' => 'Managing Director, Turin Apparels Ltd.',
+        'name5' => 'Monir Uz Zaman',
+        'position5' => 'Proprietor, Lennox Fashion BD',
+        'name6' => 'Abdul Mannan',
+        'position6' => 'Proprietor, MAM Bangladesh',
+        'name7' => 'Mohammed Rakibul Hasan',
+        'position7' => 'Managing Director, Verostyle Ltd.',
+        'name8' => 'Kayes Ahmed Chowdhury Sagor',
+        'position8' => 'Partner, PQS Design',
+        'name9' => 'Kyaw Sein Thay Dolly',
+        'position9' => 'Managing Director, Cloths R Us Ltd.',
+        'name10' => 'Shagufhta Newaz',
+        'position10' => 'Chairman, N2N Scouring Ltd.',
+
+        'blogtitle' => 'Recent Blogs',
+        'user1' => 'By superadmin',
+        'date1' => 'May 4, 2024',
+        'cart1text' => 'Training on Trade Financings',
+        'projecttext1' => 'Training & Development',
+        'texttime1' => 'Module: Training On Trade Financing Date & Time: 2 Jun, 2024 Sunday, 9.30-5.0 Venue: Hotel...',
+        'cart2text' => 'Proposed Downtown District Ordinance',
+
+        'newsfeedtitle' => 'News Feeds',
+        
+        'footertitle' => 'Buyers Council',
+        'footeraddress1' => 'Sector # 06, House # 06,(1st Floor), Road # Isha kha Avenue Uttara, .Uttara, Dhaka 1230',
+        'footeradress2' => 'Phone: +8802 5895 6404 . Saturday - Thursday, 8:00 am - 6:00 pm',
+        'footertitle1' => 'Quick Links',
+        'footertitle2' => 'Media',
+        'footertitle3' => 'Useful Links',
+        'ft1' => 'Home',
+        'ft2' => 'Export Promotion',
+        'ft3' => 'Bureau, Bangladesh' ,
+        'ft4' => 'BGMEA',
+        'ft5' => 'BKMEA',
+        'ft6' => 'Bangladesh Bank',
+
+        'copyright' => 'Copyright &copy; 2024 - Buyers Council. Website Design and Developed by Berrylabs',
+
+        'whoareyoutitle' => 'Introducing the Buyers Council: Strength in Unity, Leadership in Buyers Council',
+
+        'whoareyoudescription' => 'Greetings from the Buyers Council, a pivotal panel represents a collective of passionate and experienced Buying House Owners dedicated to advancing the standards of business excellence and committed to revolutionizing best practices and empowering business owners like you.
+        With a rich tapestry of expertise spanning various sectors of the industry, we bring forth a unified vision aimed at elevating the collective success of our members.
+        With the upcoming association election on the horizon, were thrilled to share our identity and the transformative changes we envision for the benefit of all members.',
+
+        'whoareyoutitle1' => 'What We Can Do for Business Owners:',
+        '1' => '1',
+        '2' => '2',
+        '3' => '3',
+        '4' => '4',
+        '5' => '5',
+        '6' => '6',
+
+        'whoareyoudescriptiontitle1' => ' Advocacy and Representation:',
+        'whoareyoudescriptiontitle2' => 'Knowledge Sharing and Capacity Building:',
+        'whoareyoudescriptiontitle3' => 'Networking and Collaboration Opportunities:',
+        'whoareyoudescriptiontitle4' => 'Technology Adoption and Innovation:',
+        'whoareyoudescriptiontitle5' => 'Best Practices Sharing:',
+        'whoareyoudescriptiontitle6' => 'Market Intelligence:',
+
+        'whoaredes1' => 'As the voice of Buying House Owners within the association, we pledge to advocate for policies with Government and reforms that champion your interests and address your concerns. Whether its streamlining bureaucratic processes, negotiating fair trade agreements, or promoting ethical sourcing practices, we will stand by you every step of the way.',
+        'whoaredes2' => 'We recognize the importance of continuous learning and development in navigating the complexities of the buying & sourcing landscape. Through curated workshops, seminars, and training sessions, we aim to equip our members with the latest insights, tools, and strategies to enhance their operational efficiency and competitiveness.',
+        'whoaredes3' => 'In an industry where relationships are paramount, we understand the significance of fostering meaningful connections and collaborations. Through events, networking mixers, and industry forums, we will provide ample opportunities for you to engage with fellow Buying House Owners for networking and collaboration, forge strategic alliances, allowing members to connect with peers, share experiences, and build valuable relationships within the industry and explore new business prospects.',
+        'whoaredes4' => 'Embracing technological advancements is key to staying ahead in today’s rapidly evolving marketplace. We are committed to facilitating the adoption of cutting-edge business technologies and digital solutions that streamline processes, enhance efficiency, and drive business growth.',
+        'whoaredes5' => 'We will facilitate the exchange of best practices and lessons learned among members to foster continuous improvement and innovation in business processes.',
+        'whoaredes6' => 'We will provide our members with access to cutting-edge market intelligence, trends, and insights to help them make informed decisions and stay ahead of the curve.',
+
+        'whoaredes7' => 'Integrity, collaboration, and excellence are the cornerstones of our organization. We believe in conducting business with the highest ethical standards, collaborating openly and transparently with our peers, and striving for excellence in everything we do.',
+        'whoaredes8' => 'At the core of our mission lies a steadfast commitment to empower Buying House Owners by fostering innovation, collaboration, and efficiency in business operations. We are driven by the belief that through strategic initiatives and collective action, we can unlock new opportunities for growth and prosperity within our industry.',
+        'whoaredes9' => 'As the Buyers Council, we serve as a platform for knowledge exchange, networking, and professional and personal development and leadership cultivation. Through a variety of initiatives including workshops, seminars, and networking events, we aim to equip our members with the insights, tools, and resources necessary to excel in their roles.',
+
+
+        'firstname' => 'First name',
+        'lastname' => 'Last name',
+        'company' => 'Company',
+        'email' => 'Email',
+        'pnumber' => 'Phone Number',
+        'message' => 'Message',
+
+        'letstalk' => 'Lets talk' 
+        
+    ];
+?>

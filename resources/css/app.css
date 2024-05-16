@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+img .leadersimages {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.indtroduce {
+    justify-content: space-between;
+ }
+
+.indtroduce {
+    justify-content: space-between;
+ }
+
+ .introduceblocks {
+    gap: 2rem;
+     padding: 20px;
+ }
+
+.introduceblocks h1 {
+    font-size: 2.438rem;
+ }
+
+.indtroduce p {
+    color: #7a7a7a;
+}
+
+.indtroduce h2 {
+    font-size: 1.5rem;
+}
+
+.inheight {
+    margin: 2rem 0rem;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    padding: 4px 1rem;
+}
+
+.menu-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px; /* Adjust as needed */
+    height: 2px; /* Adjust as needed */
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.menu-link:hover {
+    color: grey;
+}
+
+.menu-link:hover::before {
+    background-color: #008000; /* Adjust to your underline color */
+}
+
+
+.menu-link2 {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+    padding: 8px 1rem;
+}
+
+.menu-link2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px; /* Adjust as needed */
+    height: 2px; /* Adjust as needed */
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.menu-link2:hover {
+    color: grey;
+}
+
+.menu-link2:hover::before {
+    background-color: #008000; /* Adjust to your underline color */
+}
+
+
+.customfont {
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.swiperbody {
+    position: relative;
+    height: 100%;
+}
+
+.swiperbody {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shape {
+    background-color: #232323;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(0 20%, 0% 100%, 70% 100%);
+}
+
+
+
