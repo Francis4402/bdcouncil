@@ -69,10 +69,18 @@ dropdownToggle.addEventListener('mouseenter', function () {
 dropdownMenu.addEventListener('mouseleave', function () {
   dropdownMenu.classList.add('hidden');
 });
+dropdownToggle.addEventListener('mouseenter', function () {
+  dropdownMenu3.classList.add('hidden');
+  dropdownMenu2.classList.add('hidden');
+});
 var dropdownToggle2 = document.getElementById("dropdownToggle2");
 var dropdownMenu2 = document.getElementById("dropdownMenu2");
 dropdownToggle2.addEventListener('mouseenter', function () {
   dropdownMenu2.classList.remove('hidden');
+});
+dropdownToggle2.addEventListener('mouseenter', function () {
+  dropdownMenu3.classList.add('hidden');
+  dropdownMenu.classList.add('hidden');
 });
 dropdownMenu2.addEventListener('mouseleave', function () {
   dropdownMenu2.classList.add('hidden');
@@ -81,6 +89,10 @@ var dropdownToggle3 = document.getElementById("dropdownToggle3");
 var dropdownMenu3 = document.getElementById("dropdownMenu3");
 dropdownToggle3.addEventListener('mouseenter', function () {
   dropdownMenu3.classList.remove('hidden');
+});
+dropdownToggle3.addEventListener('mouseenter', function () {
+  dropdownMenu2.classList.add('hidden');
+  dropdownMenu.classList.add('hidden');
 });
 dropdownMenu3.addEventListener('mouseleave', function () {
   dropdownMenu3.classList.add('hidden');

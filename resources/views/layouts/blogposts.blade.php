@@ -9,15 +9,30 @@
 
                 <div class="flex flex-col gap-10 w-full">
 
-                    <div class="flex md:flex-row flex-col gap-10 justify-center items-center mt-10">
-                        <div class="md:w-96 w-full h-full">
-                            <img src="{{ asset('assets/backgroundimage/offceteam.jpg') }}" alt="i">
+                    <div class="flex md:flex-row flex-col gap-5 items-center mt-10">
+                        <div class="flex md:flex-col flex-row gap-2 md:w-fit w-full text-gray-400">
+                            <p class="text-sm flex gap-2 cursor-pointer"><span>4</span> votes</p>
+                            <p class="text-sm flex gap-2 cursor-pointer"><span>3</span> answers</p>
+                            <p class="text-sm flex gap-2 cursor-pointer"><span>9</span> views</p>
                         </div>
                         
                         <div class="flex flex-col gap-4 w-full items-start">
                             
-                            <div class="flex lg:flex-row flex-col lg:items-center lg:gap-0 gap-4 items-start lg:justify-between md:w-[34rem] w-full">
-                                <div class="flex md:flex-row flex-col gap-4">
+                            <h4 class="text-2xl font-bold">@lang('public.cart1text')</h4>
+    
+                            <h4 class="capitalize text-lg text-start">@lang('public.texttime1')</h4>
+                            
+                            <div class="flex lg:flex-row flex-col lg:items-center lg:gap-0 gap-4 items-start w-full">
+
+                                <div class="flex flex-wrap gap-4">
+                                    <div class="flex items-center gap-1 text-sm uppercase">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                            <path d="M19.5 21a3 3 0 0 0 3-3v-4.5a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3V18a3 3 0 0 0 3 3h15ZM1.5 10.146V6a3 3 0 0 1 3-3h5.379a2.25 2.25 0 0 1 1.59.659l2.122 2.121c.14.141.331.22.53.22H19.5a3 3 0 0 1 3 3v1.146A4.483 4.483 0 0 0 19.5 9h-15a4.483 4.483 0 0 0-3 1.146Z" />
+                                        </svg>
+                                          
+                                        <p class="text-[#7a7a7a]">@lang('public.projecttext1')</p>
+                                    </div>
+
                                     <div class="flex items-center gap-1 text-sm">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                                             <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
@@ -34,44 +49,40 @@
                                         <p class="text-[#7a7a7a]">@lang('public.date1')</p>
                                     </div>
                                 </div>
-                                
+                            </div>
 
-                                <div class="flex gap-2 w-fit font-semibold">
-                                    <p class="text-sm flex gap-2 cursor-pointer"><span>9</span> views</p>
-                                    <p class="text-sm flex gap-2 cursor-pointer"><span>3</span> comments</p>
-                                </div>
-                            </div>
-                            
-                            <h4 class="text-2xl font-bold">@lang('public.cart1text')</h4>
-                            <div class="flex md:flex-wrap md:flex-row flex-col gap-2">
-                                
-                                <div class="flex items-center gap-1 text-sm uppercase">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                        <path d="M19.5 21a3 3 0 0 0 3-3v-4.5a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3V18a3 3 0 0 0 3 3h15ZM1.5 10.146V6a3 3 0 0 1 3-3h5.379a2.25 2.25 0 0 1 1.59.659l2.122 2.121c.14.141.331.22.53.22H19.5a3 3 0 0 1 3 3v1.146A4.483 4.483 0 0 0 19.5 9h-15a4.483 4.483 0 0 0-3 1.146Z" />
-                                    </svg>
-                                      
-                                    <p class="text-[#7a7a7a]">@lang('public.projecttext1')</p>
-                                </div>
-                            </div>
-    
-                            <h4 class="capitalize text-lg text-start">@lang('public.texttime1')</h4>
-    
-                            <div>
-                                <a href={{ route('blog') }} class="px-5 py-3 bg-[#0d6efd] hover:bg-blue-800 hover:scale-105 duration-200 text-white">@lang('public.readmorebutton')</a>
+                            <div class="mt-2">
+                                <a href="{{ route('blogdetail') }}" class="px-5 py-3 bg-[#0d6efd] hover:bg-blue-800 hover:scale-105 duration-200 text-white">@lang('public.readmorebutton')</a>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="flex md:flex-row flex-col w-full gap-10 justify-center items-center mt-10">
-                        <div class="md:w-96 w-full h-full">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrOdsZkSoAV8YL9loXYtKcnnzk7PJqDlmIIHR7-6Qpfw&s" alt="i">
+                    <div class="flex md:flex-row flex-col gap-5 justify-center items-center mt-10">
+
+                        <div class="flex md:flex-col flex-row gap-2 md:w-fit w-full text-gray-400">
+                            <p class="text-sm flex gap-2 cursor-pointer"><span>4</span> votes</p>
+                            <p class="text-sm flex gap-2 cursor-pointer"><span>3</span> answers</p>
+                            <p class="text-sm flex gap-2 cursor-pointer"><span>9</span> views</p>
                         </div>
-    
+                        
                         <div class="flex flex-col gap-4 w-full items-start">
                             
-                            <div class="flex lg:flex-row flex-col lg:items-center lg:gap-0 gap-4 items-start lg:justify-between md:w-[34rem] w-full">
-                                <div class="flex  md:flex-row flex-col gap-4">
+                            <h4 class="text-2xl font-bold">@lang('public.cart2text')</h4>
+    
+                            <h4 class="capitalize text-lg text-start">@lang('public.texttime1')</h4>
+                            
+                            <div class="flex lg:flex-row flex-col lg:items-center lg:gap-0 gap-4 items-start w-full">
+
+                                <div class="flex flex-wrap gap-4">
+                                    <div class="flex items-center gap-1 text-sm uppercase">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                            <path d="M19.5 21a3 3 0 0 0 3-3v-4.5a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3V18a3 3 0 0 0 3 3h15ZM1.5 10.146V6a3 3 0 0 1 3-3h5.379a2.25 2.25 0 0 1 1.59.659l2.122 2.121c.14.141.331.22.53.22H19.5a3 3 0 0 1 3 3v1.146A4.483 4.483 0 0 0 19.5 9h-15a4.483 4.483 0 0 0-3 1.146Z" />
+                                        </svg>
+                                          
+                                        <p class="text-[#7a7a7a]">@lang('public.projecttext1')</p>
+                                    </div>
+
                                     <div class="flex items-center gap-1 text-sm">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
                                             <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
@@ -89,35 +100,15 @@
                                     </div>
                                 </div>
                                 
-
-                                <div class="flex gap-2 w-fit font-semibold">
-                                    <p class="text-sm flex gap-2 cursor-pointer"><span>10</span> views</p>
-                                    <p class="text-sm flex gap-2 cursor-pointer"><span>7</span> comments</p>
-                                </div>
                             </div>
-                            
-                            <h4 class="text-2xl font-bold">@lang('public.cart2text')</h4>
-                            <div class="flex md:flex-wrap md:flex-row flex-col gap-2">
-                                
-                                <div class="flex items-center gap-1 text-sm uppercase">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                                        <path d="M19.5 21a3 3 0 0 0 3-3v-4.5a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3V18a3 3 0 0 0 3 3h15ZM1.5 10.146V6a3 3 0 0 1 3-3h5.379a2.25 2.25 0 0 1 1.59.659l2.122 2.121c.14.141.331.22.53.22H19.5a3 3 0 0 1 3 3v1.146A4.483 4.483 0 0 0 19.5 9h-15a4.483 4.483 0 0 0-3 1.146Z" />
-                                    </svg>
-                                      
-                                    <p class="text-[#7a7a7a]">@lang('public.projecttext1')</p>
-                                </div>
-                            </div>
-    
-                            <h4 class="capitalize text-lg text-start">@lang('public.texttime1')</h4>
-    
-                            <div>
-                                <a href={{ route('blog') }} class="px-5 py-3 bg-[#0d6efd] hover:bg-blue-800 hover:scale-105 duration-200 text-white">@lang('public.readmorebutton')</a>
+                            <div class="mt-2">
+                                <a href="{{ route('blogdetail2') }}" class="px-5 py-3 bg-[#0d6efd] hover:bg-blue-800 hover:scale-105 duration-200 text-white">@lang('public.readmorebutton')</a>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                
+            
         </div>
     </div>
 

@@ -53,4 +53,12 @@ class routes extends Controller
     public function newsevent() {
         return view('layouts.newsevent');
     }
+
+    public function blogdetail(){
+        return view('popups.blogdetail');
+    }
+
+    public function blogdetail2(){
+        return view('popups.blogdetail2');
+    }
 }

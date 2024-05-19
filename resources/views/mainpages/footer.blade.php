@@ -37,11 +37,11 @@
                     <div class="flex flex-col gap-4">
                         <h4 class="text-lg font-bold text-[#c4c4c4]">@lang('public.footertitle3')</h4>
                         <div class="text-[#c4c4c4] gap-2 flex flex-col">
-                            <p>@lang('public.ft2')</p>
-                            <p>@lang('public.ft3')</p>
-                            <p>@lang('public.ft4')</p>
-                            <p>@lang('public.ft5')</p>
-                            <p>@lang('public.ft6')</p>
+                            <a href="/">@lang('public.ft2')</a>
+                            <a href="/">@lang('public.ft3')</a>
+                            <a href="/">@lang('public.ft4')</a>
+                            <a href="/">@lang('public.ft5')</a>
+                            <a href="/">@lang('public.ft6')</a>
                         </div>
                     </div>
                 </div>

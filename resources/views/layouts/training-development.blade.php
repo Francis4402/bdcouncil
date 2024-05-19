@@ -66,7 +66,7 @@
                         <h4 class="capitalize text-lg text-start">@lang('public.texttime1')</h4>
 
                         <div>
-                            <a href={{ route('blog') }} class="px-5 py-3 bg-[#0d6efd] hover:bg-blue-800 hover:scale-105 duration-200 text-white">@lang('public.readmorebutton')</a>
+                            <a href="{{ route('blogdetail') }}" class="px-5 py-3 bg-[#0d6efd] hover:bg-blue-800 hover:scale-105 duration-200 text-white">@lang('public.readmorebutton')</a>
                         </div>
                     </div>
                 </div>

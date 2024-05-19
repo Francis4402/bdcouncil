@@ -3,7 +3,7 @@
         <div class="container max-w-6xl lg:px-0 px-5">
             <h1 class="text-3xl font-bold mb-10 text-center uppercase text-white">@lang('public.swipertexttitle')</h1>
             <swiper-container class="mySwiper3" style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff; --swiper-navigation-size: 20px;" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
-            centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+             autoplay-delay="2500" autoplay-disable-on-interaction="false" loop="true">
                 <swiper-slide>
                     <div class="flex flex-col gap-4 items-center">
                         <div class="w-fit h-full rounded-full">

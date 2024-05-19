@@ -43,3 +43,6 @@ Route::get('/blog', [routes::class, 'blog'])->name('blog');
 Route::get('/contactus', [routes::class, 'contactus'])->name('contactus');
 
 Route::get('/lang/{lang}', [langcontroller::class, 'lang'])->name('lang');
+
+Route::get('/blog/card1', [routes::class, 'blogdetail'])->name('blogdetail');
+Route::get('/blog/card2', [routes::class, 'blogdetail2'])->name('blogdetail2');

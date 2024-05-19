@@ -84,11 +84,21 @@ document.getElementById('toggleIcon6').addEventListener('click', function(){
         dropdownMenu.classList.add('hidden');
     });
 
+    dropdownToggle.addEventListener('mouseenter', function() {
+      dropdownMenu3.classList.add('hidden');
+      dropdownMenu2.classList.add('hidden');
+    });
+
     const dropdownToggle2 = document.getElementById("dropdownToggle2");
     const dropdownMenu2 = document.getElementById("dropdownMenu2");
 
     dropdownToggle2.addEventListener('mouseenter', function() {
       dropdownMenu2.classList.remove('hidden');
+    });
+
+    dropdownToggle2.addEventListener('mouseenter', function() {
+      dropdownMenu3.classList.add('hidden');
+      dropdownMenu.classList.add('hidden');
     });
 
     dropdownMenu2.addEventListener('mouseleave', function() {
@@ -100,6 +110,11 @@ document.getElementById('toggleIcon6').addEventListener('click', function(){
 
     dropdownToggle3.addEventListener('mouseenter', function() {
       dropdownMenu3.classList.remove('hidden');
+    });
+
+    dropdownToggle3.addEventListener('mouseenter', function() {
+      dropdownMenu2.classList.add('hidden');
+      dropdownMenu.classList.add('hidden');
     });
 
     dropdownMenu3.addEventListener('mouseleave', function() {

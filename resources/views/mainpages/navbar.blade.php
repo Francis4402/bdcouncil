@@ -83,10 +83,10 @@
  
                 <a href="/blog" class="border-r border-gray-800 menu-link2">@lang('public.navtext7')</a>
                 <a href="/contactus" class="border-r border-gray-800 menu-link2">@lang('public.navtext8')</a>
-                <a href="/lang/en" class="border-r border-gray-800 cursor-pointer menu-link2">
+                <a href="{{ route('lang', ['lang' => 'en']) }}" class="border-r border-gray-800 cursor-pointer menu-link2 @if(Session::get('lang') == 'en') active @endif">
                     en
                 </a>
-                <a href="/lang/bn" class="flex items-center cursor-pointer menu-link2">
+                <a href="{{ route('lang', ['lang' => 'bn']) }}" class="flex items-center cursor-pointer menu-link2 @if(Session::get('lang') == 'bn') active @endif">
                     bn
                 </a>
             </div>
