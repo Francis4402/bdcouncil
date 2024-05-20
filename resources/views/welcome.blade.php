@@ -21,6 +21,9 @@
 
         @include('mainpages.footer')
 
+        @include('mainpages.homebutton')
+
+
         <script src="{{ mix('js/jscodes.js') }}"></script>
         <script src="{{ mix('js/app.js') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>

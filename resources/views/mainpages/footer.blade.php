@@ -52,5 +52,6 @@
         <div class="text-[#b2b2b2] text-xs flex justify-center pb-10 customfont">
             @lang('public.copyright')
         </div>
+
     </div>
 </div>
