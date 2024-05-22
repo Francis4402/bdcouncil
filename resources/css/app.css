@@ -45,35 +45,8 @@ img .leadersimages {
     margin: 2rem 0rem;
 }
 
+
 .menu-link {
-    color: white;
-    text-decoration: none;
-    position: relative;
-    transition: color 0.3s ease-in-out;
-    padding: 4px 1rem;
-}
-
-.menu-link::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -2px; /* Adjust as needed */
-    height: 2px; /* Adjust as needed */
-    background-color: transparent;
-    transition: background-color 0.3s ease-in-out;
-}
-
-.menu-link:hover {
-    color: grey;
-}
-
-.menu-link:hover::before {
-    background-color: #008000; /* Adjust to your underline color */
-}
-
-
-.menu-link2 {
     color: white;
     text-decoration: none;
     position: relative;
@@ -81,7 +54,7 @@ img .leadersimages {
     padding: 8px 1rem;
 }
 
-.menu-link2::before {
+.menu-link::before {
     content: '';
     position: absolute;
     left: 0;
@@ -92,17 +65,22 @@ img .leadersimages {
     transition: background-color 0.3s ease-in-out;
 }
 
-.menu-link2:hover {
+.menu-link:hover {
     color: grey;
 }
 
-.menu-link2.active {
-    color: grey;
-}
-
-.menu-link2.active::before {
+.menu-link:hover::before {
     background-color: #008000;
 }
+
+.menu-link.active {
+    color: grey;
+}
+
+.menu-link.active::before {
+    background-color: #008000;
+}
+
 
 
 .customfont {

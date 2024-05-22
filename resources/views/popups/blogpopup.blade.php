@@ -11,6 +11,18 @@
               <p class="text-[#a1a1a1]">@lang('public.projecttext1')</p>
               <p class="py-4 w-full">@lang('public.texttime1')</p>
 
+
+              <div class="flex gap-4 items-center">
+                <a href="https://www.facebook.com" class="bg-gray-300 rounded-full p-2 hover:bg-[#3b5998] hover:animate-bounce duration-200">
+                    <img width="20px" height="20px" src="{{ asset('assets/icons/facebook-app-symbol.png') }}" alt="i"/>
+                </a>
+                <a href="https://twitter.com/?lang=en" class="bg-gray-300 rounded-full p-2 hover:bg-[#1da1f2] hover:animate-bounce duration-200">
+                    <img width="20px" height="20px" src="{{ asset('assets/icons/twitter.png') }}" alt="i"/>
+                </a>
+                <a href="https://www.pinterest.com/" class="bg-gray-300 rounded-full p-2 hover:bg-[#e60023] hover:animate-bounce duration-200">
+                    <img width="20px" height="20px" src="{{ asset('assets/icons/pinterest.png') }}" alt="i"/>
+                </a>
+              </div>
           </div>
       </div>
     </div>
@@ -31,15 +43,15 @@
               <p class="py-4 w-full">@lang('public.popupdes1')</p>
   
               <div class="flex gap-4 items-center">
-                  <a href="https://www.facebook.com" class="bg-gray-300 rounded-full p-2 hover:bg-blue-600 hover:animate-bounce duration-200">
-                      <img width="20px" height="20px" src="{{ asset('assets/icons/facebook-app-symbol.png') }}" alt="i"/>
-                  </a>
-                  <a href="https://www.pinterest.com/" class="bg-gray-300 rounded-full p-2 hover:bg-blue-600 hover:animate-bounce duration-200">
-                      <img width="20px" height="20px" src="{{ asset('assets/icons/twitter.png') }}" alt="i"/>
-                  </a>
-                  <a href="https://twitter.com/?lang=en" class="bg-gray-300 rounded-full p-2 hover:bg-blue-600 hover:animate-bounce duration-200">
-                      <img width="20px" height="20px" src="{{ asset('assets/icons/pinterest.png') }}" alt="i"/>
-                  </a>
+                <a href="https://www.facebook.com" class="bg-gray-300 rounded-full p-2 hover:bg-[#3b5998] hover:animate-bounce duration-200">
+                    <img width="20px" height="20px" src="{{ asset('assets/icons/facebook-app-symbol.png') }}" alt="i"/>
+                </a>
+                <a href="https://twitter.com/?lang=en" class="bg-gray-300 rounded-full p-2 hover:bg-[#1da1f2] hover:animate-bounce duration-200">
+                    <img width="20px" height="20px" src="{{ asset('assets/icons/twitter.png') }}" alt="i"/>
+                </a>
+                <a href="https://www.pinterest.com/" class="bg-gray-300 rounded-full p-2 hover:bg-[#e60023] hover:animate-bounce duration-200">
+                    <img width="20px" height="20px" src="{{ asset('assets/icons/pinterest.png') }}" alt="i"/>
+                </a>
               </div>
           </div>
       </div>

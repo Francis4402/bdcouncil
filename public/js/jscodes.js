@@ -120,5 +120,14 @@ Object.assign(swiperEl, {
   }
 });
 swiperEl.initialize();
+$(document).ready(function () {
+  var currentPath = window.location.pathname;
+  $('.menu-link').each(function () {
+    var linkPath = $(this).attr('href');
+    if (linkPath === currentPath) {
+      $(this).addClass('active');
+    }
+  });
+});
 /******/ })()
 ;

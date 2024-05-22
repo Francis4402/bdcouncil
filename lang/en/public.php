@@ -6,7 +6,7 @@
         'navtext4' => 'media',
         'navtext5' => 'services',
         'navtext6' => 'database',
-        'navtext7' => 'blog',
+        'navtext7' => 'blogs',
         'navtext8' => 'contact us',
         'navtext9' => 'Our Activities',
         'navdrop1' => 'News Events',

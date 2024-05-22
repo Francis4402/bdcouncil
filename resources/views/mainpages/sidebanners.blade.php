@@ -1,8 +1,7 @@
 <div class="flex flex-col lg:w-96 w-full gap-8">
     <div class="bg-[#f7f7f7] p-8">
-        <p class="text-[#333333]">Search</p>
         <div class="flex lg:flex-row flex-col lg:items-center gap-4">
-            <input type="text" class="w-full" />
+            <input type="text" class="w-full py-2" />
             <button class="bg-[#f0f0f0] px-6 py-2 border">Search</button>
         </div>
     </div>

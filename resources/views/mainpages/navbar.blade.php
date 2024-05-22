@@ -1,17 +1,24 @@
+<?php
+    $currentRoute = Route::currentRouteName();
+?>
+
+
 <div class="bg-[#333333] flex justify-center w-full h-full sticky top-0 customfont z-20">
     <div class="container max-w-6xl">
         <div class="flex justify-between items-center ">
             <a href="/">
-                <img class="bg-[#232323] p-8 w-36 h-full" src="https://buyerscouncil.org/wp-content/uploads/2024/02/logo.png" alt="i">
+                <img class="bg-[#232323] p-8 w-32 h-full" src="https://buyerscouncil.org/wp-content/uploads/2024/02/logo.png" alt="i">
             </a>
 
             <div class="uppercase text-white font-bold text-sm lg:flex hidden items-center">
-                <a href={{ route('whoweare') }}  class="border-r border-gray-800 menu-link2">@lang('public.navtext1')</a>
-                <a href={{ route('ourpanellist') }}  class="border-r border-gray-800 menu-link2">@lang('public.navtext2')</a>
-                <a href={{ route('leaders') }}  class="border-r border-gray-800 menu-link2">@lang('public.navtext3')</a>
+                <a href="{{ route('whoweare') }}" class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'whoweare') ? 'active' : ''; ?>">
+                    @lang('public.navtext1')
+                </a>
+                <a href={{ route('ourpanellist') }}  class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'ourpanellist') ? 'active' : ''; ?>">@lang('public.navtext2')</a>
+                <a href={{ route('leaders') }}  class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'leaders') ? 'active' : ''; ?>">@lang('public.navtext3')</a>
                 
                 <div class="relative">
-                    <a id="dropdownToggle" class="border-r border-gray-800 flex items-center cursor-pointer menu-link2">
+                    <a id="dropdownToggle" class="border-r border-gray-800 flex items-center cursor-pointer menu-link">
                         @lang('public.navtext4')
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -36,7 +43,7 @@
                 
 
                 <div class="relative">
-                    <a id="dropdownToggle2" class="border-r border-gray-800 flex items-center cursor-pointer menu-link2">
+                    <a id="dropdownToggle2" class="border-r border-gray-800 flex items-center cursor-pointer menu-link">
                         @lang('public.navtext5')
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -58,7 +65,7 @@
                 </div>
 
                 <div class="relative">
-                    <a id="dropdownToggle3" class="border-r border-gray-800 flex items-center cursor-pointer menu-link2">
+                    <a id="dropdownToggle3" class="border-r border-gray-800 flex items-center cursor-pointer menu-link">
                         @lang('public.navtext6')
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -81,12 +88,12 @@
                     </div>
                 </div>
  
-                <a href="/blog" class="border-r border-gray-800 menu-link2">@lang('public.navtext7')</a>
-                <a href="/contactus" class="border-r border-gray-800 menu-link2">@lang('public.navtext8')</a>
-                <a href="{{ route('lang', ['lang' => 'en']) }}" class="border-r border-gray-800 cursor-pointer menu-link2 @if(Session::get('lang') == 'en') active @endif">
+                <a href="/blog" class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'blog') ? 'active' : ''; ?>">@lang('public.navtext7')</a>
+                <a href="/contactus" class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'contactus') ? 'active' : ''; ?>">@lang('public.navtext8')</a>
+                <a href="{{ route('lang', ['lang' => 'en']) }}" class="border-r border-gray-800 cursor-pointer menu-link @if(Session::get('lang') == 'en') active @endif">
                     en
                 </a>
-                <a href="{{ route('lang', ['lang' => 'bn']) }}" class="flex items-center cursor-pointer menu-link2 @if(Session::get('lang') == 'bn') active @endif">
+                <a href="{{ route('lang', ['lang' => 'bn']) }}" class="flex items-center cursor-pointer menu-link @if(Session::get('lang') == 'bn') active @endif">
                     bn
                 </a>
             </div>
@@ -100,7 +107,7 @@
                 </a>
             </div>
             
-            <div class="bg-[#1f2024] absolute hidden top-[8.6rem] w-full menu transition duration-500 ease-in-out">
+            <div class="bg-[#1f2024] absolute hidden top-[7.6rem] w-full menu transition duration-500 ease-in-out">
                 <div class="text-white py-5 font-semibold text-base flex flex-col gap-5 w-full uppercase">
                     <a href={{ route('whoweare') }} class="menu-link">@lang('public.navtext1')</a>
                     <a href={{ route('ourpanellist') }} class="menu-link">@lang('public.navtext2')</a>
@@ -116,7 +123,7 @@
                         </svg>
                     </p>
 
-                    <div id="areaText" style="display: none;" class="text-sm font-normal px-5 capitalize ">
+                    <div id="areaText" style="display: none;" class="text-sm font-normal px-5 capitalize">
                         <div class="flex flex-col gap-2">
                             <a href={{ route('newsevents') }} class="border-b border-dotted border-gray-600 pb-1 hover:text-gray-400">@lang('public.navdrop1')</a>
                             <a href={{ route('recentactivity') }} class="border-b border-dotted border-gray-600 pb-1 hover:text-gray-400">@lang('public.navdrop2')</a>

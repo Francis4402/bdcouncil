@@ -20,9 +20,9 @@
 
     <div class="flex justify-center">
       <div class="container md:px-0 px-5">
-        <div class="flex lg:flex-row flex-col-reverse justify-center items-center gap-10 my-20">
+        <div class="flex lg:flex-row flex-col-reverse justify-between items-center gap-10 my-20">
           <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14600.501798440366!2d90.4135827!3d23.8141377!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7c43004be17%3A0x3a93ae18e1d8e067!2sEarth%20Fashion%20Ltd!5e0!3m2!1sen!2sbd!4v1716066390973!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14600.501798440366!2d90.4135827!3d23.8141377!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7c43004be17%3A0x3a93ae18e1d8e067!2sEarth%20Fashion%20Ltd!5e0!3m2!1sen!2sbd!4v1716066390973!5m2!1sen!2sbd" width="900" height="780" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
     
           <div class="isolate px-6 py-6 lg:px-8 bg-gray-200 rounded-xl shadow-lg">

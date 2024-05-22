@@ -24,6 +24,20 @@
                     
                     <div class="flex md:flex-row flex-col md:justify-between items-start gap-10">
                         <div>
+                            <div class="flex items-center gap-5 justify-end">
+                                <ul class="flex items-center gap-2 border rounded-lg p-1">
+                                    <li class="hover:bg-gray-200 px-5 py-1 rounded-md cursor-pointer">Newest</li>
+                                    <li class="hover:bg-gray-200 px-5 py-1 rounded-md cursor-pointer">Unaswered</li>
+                                </ul>
+        
+                                <button class="flex items-center gap-2 border border-blue-600 hover:bg-blue-200 rounded-md px-5 py-[0.4rem]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+                                        <path fill-rule="evenodd" d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+                                    </svg>
+                                    
+                                    Filter
+                                </button>
+                            </div>
                             <div class="flex md:flex-row flex-col gap-2 flex-1 items-center">
                                 <div class="flex gap-1 items-center">
                                     <h1 class="font-semibold uppercase text-3xl w-full">@lang('public.navtext7')</h1>
