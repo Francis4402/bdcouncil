@@ -141,6 +141,54 @@
 
         'popupdes10' => 'With more than 18 years of extensive experience, Shagufhta has cultivated a diverse array of talents, showcasing proficiency in leadership, strategic planning, and operational management within the RMG sector. Her approach combines consultative coaching with proactive management, resulting in effective and efficient operations. Her Masters degree from the University of Dhaka serves as a cornerstone of her extensive educational background. Her wealth of experience is complemented by a steadfast commitment to excellence, driving her endeavors towards achieving outstanding results. As a prominent woman entrepreneur, she frequently garners attention in both local and international newspapers, further solidifying her reputation as a trailblazer in the industry. Actively participating in numerous fairs and exhibitions, she strategically positions her company to stand out among global customers, emphasizing its significance and prowess in the international market.',
 
-        'blogpost' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        'blogpost' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+
+        'newest' => 'Newest',
+        
+        'unanswered' => 'Unanswered',
+
+        'filter' => 'Filter',
+
+
+        'search' => 'Search',
+
+        'recentposts' => 'Recent Posts',
+
+        'post1' => 'Training On Trade Financings',
+        
+        'post2' => 'Proposed Downtown District Ordinance',
+
+        'post3' => 'Annual Water Quality Report (Gallery Post)',
+
+        'post4' => 'Waste Industries Garbage Pick Up: Embeds',
+
+        'post5' => 'Traffic Pattern Changes (Testing A Pagination)',
+
+        'recentcomments' => 'Recent Comments',
+
+        'comments' => 'Annual Water Quality Report (Gallery Post)',
+
+        'tra1' => 'Training On Trade Financings',
+        
+        'tra2' => 'Proposed Downtown District Ordianance',
+
+
+        //filter box
+
+        'ft1' => 'Filter by',
+        'f1' => 'No answers',
+        'f2' => 'No accepted answer',
+        'f3' => 'Has bounty',
+        'ft2' => 'Recent activity',
+        'f4' => 'Highest score',
+        'f5' => 'Most frequent',
+        'f6' => 'Bounty ending soon',
+        'ft4' => 'Sorted by',
+
+        'ft3' => 'Tagged with',
+        'f7' => 'My watched tags',
+        'f8' => 'The following tags:',
+        'f9' => 'Apply filter',
+        'f10' => 'Cancel'
     ];
 ?>

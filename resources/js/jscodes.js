@@ -11,6 +11,8 @@ document.addEventListener('click', function(event){
     }
 })
 
+
+
 document.getElementById('toggleIcon1').addEventListener('click', function(){
     var areaText = document.getElementById('areaText');
     var toggleIcon1 = document.getElementById('toggleIcon1');
