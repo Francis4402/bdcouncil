@@ -4,6 +4,8 @@ const mix = require('laravel-mix')
 
 mix.js('resources/js/app.js', 'public/js')
     .js('resources/js/filterdropdown.js', 'public/js')
+    .js('resources/js/tablemenubtn.js', 'public/js')
+    .js('resources/js/tablesort.js', 'public/js')
     .js('resources/js/jscodes.js', 'public/js')
     .js('resources/js/openmodal.js', 'public/js')
     .js('resources/js/openmodal2.js', 'public/js')

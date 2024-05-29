@@ -1,6 +1,8 @@
 {
     "/js/app.js": "/js/app.js",
     "/js/filterdropdown.js": "/js/filterdropdown.js",
+    "/js/tablemenubtn.js": "/js/tablemenubtn.js",
+    "/js/tablesort.js": "/js/tablesort.js",
     "/js/jscodes.js": "/js/jscodes.js",
     "/js/openmodal.js": "/js/openmodal.js",
     "/js/openmodal2.js": "/js/openmodal2.js",

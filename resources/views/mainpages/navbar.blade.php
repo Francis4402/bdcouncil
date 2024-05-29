@@ -3,7 +3,7 @@
 ?>
 
 
-<div class="bg-[#333333] flex justify-center w-full h-full sticky top-0 customfont z-20">
+<div class="bg-[#333333] flex justify-center w-full h-full sticky top-0 customfont z-20" id="dropdownToggle4">
     <div class="container max-w-6xl">
         <div class="flex justify-between items-center ">
             <a href="/">
@@ -11,11 +11,11 @@
             </a>
 
             <div class="uppercase text-white font-bold text-sm lg:flex hidden items-center">
-                <a href="{{ route('whoweare') }}" class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'whoweare') ? 'active' : ''; ?>">
+                <a id="dropdownToggle5" href="{{ route('whoweare') }}" class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'whoweare') ? 'active' : ''; ?>">
                     @lang('public.navtext1')
                 </a>
-                <a href={{ route('ourpanellist') }}  class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'ourpanellist') ? 'active' : ''; ?>">@lang('public.navtext2')</a>
-                <a href={{ route('leaders') }}  class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'leaders') ? 'active' : ''; ?>">@lang('public.navtext3')</a>
+                <a id="dropdownToggle6" href={{ route('ourpanellist') }} class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'ourpanellist') ? 'active' : ''; ?>">@lang('public.navtext2')</a>
+                <a id="dropdownToggle7" href={{ route('leaders') }} class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'leaders') ? 'active' : ''; ?>">@lang('public.navtext3')</a>
                 
                 <div class="relative">
                     <a id="dropdownToggle" class="border-r border-gray-800 flex items-center cursor-pointer menu-link">
@@ -88,12 +88,12 @@
                     </div>
                 </div>
  
-                <a href="/blog" class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'blog') ? 'active' : ''; ?>">@lang('public.navtext7')</a>
-                <a href="/contactus" class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'contactus') ? 'active' : ''; ?>">@lang('public.navtext8')</a>
-                <a href="{{ route('lang', ['lang' => 'en']) }}" class="border-r border-gray-800 cursor-pointer menu-link @if(Session::get('lang') == 'en') active @endif">
+                <a id="dropdownToggle8" href="/blog" class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'blog') ? 'active' : ''; ?>">@lang('public.navtext7')</a>
+                <a id="dropdownToggle9" href="/contactus" class="border-r border-gray-800 menu-link <?php echo ($currentRoute == 'contactus') ? 'active' : ''; ?>">@lang('public.navtext8')</a>
+                <a id="dropdownToggle10" href="{{ route('lang', ['lang' => 'en']) }}" class="border-r border-gray-800 cursor-pointer menu-link @if(Session::get('lang') == 'en') active @endif">
                     en
                 </a>
-                <a href="{{ route('lang', ['lang' => 'bn']) }}" class="flex items-center cursor-pointer menu-link @if(Session::get('lang') == 'bn') active @endif">
+                <a id="dropdownToggle11" href="{{ route('lang', ['lang' => 'bn']) }}" class="flex items-center cursor-pointer menu-link @if(Session::get('lang') == 'bn') active @endif">
                     bn
                 </a>
             </div>

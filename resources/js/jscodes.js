@@ -11,8 +11,6 @@ document.addEventListener('click', function(event){
     }
 })
 
-
-
 document.getElementById('toggleIcon1').addEventListener('click', function(){
     var areaText = document.getElementById('areaText');
     var toggleIcon1 = document.getElementById('toggleIcon1');
@@ -75,53 +73,74 @@ document.getElementById('toggleIcon6').addEventListener('click', function(){
 
 
 
-    const dropdownToggle = document.getElementById('dropdownToggle');
-    const dropdownMenu = document.getElementById('dropdownMenu');
+const dropdownToggle = $('#dropdownToggle');
+const dropdownMenu = $('#dropdownMenu');
 
-    dropdownToggle.addEventListener('mouseenter', function() {
-        dropdownMenu.classList.remove('hidden');
-    });
+dropdownToggle.on('mouseenter', function() {
+    dropdownMenu.removeClass('hidden');
+});
 
-    dropdownMenu.addEventListener('mouseleave', function() {
-        dropdownMenu.classList.add('hidden');
-    });
+dropdownMenu.on('mouseleave', function() {
+    dropdownMenu.addClass('hidden');
+});
 
-    dropdownToggle.addEventListener('mouseenter', function() {
-      dropdownMenu3.classList.add('hidden');
-      dropdownMenu2.classList.add('hidden');
-    });
+dropdownToggle.on('mouseenter', function() {
+    $('#dropdownMenu3').addClass('hidden');
+    $('#dropdownMenu2').addClass('hidden');
+});
 
-    const dropdownToggle2 = document.getElementById("dropdownToggle2");
-    const dropdownMenu2 = document.getElementById("dropdownMenu2");
+const dropdownToggle2 = $('#dropdownToggle2');
+const dropdownMenu2 = $('#dropdownMenu2');
 
-    dropdownToggle2.addEventListener('mouseenter', function() {
-      dropdownMenu2.classList.remove('hidden');
-    });
+dropdownToggle2.on('mouseenter', function() {
+    dropdownMenu2.removeClass('hidden');
+});
 
-    dropdownToggle2.addEventListener('mouseenter', function() {
-      dropdownMenu3.classList.add('hidden');
-      dropdownMenu.classList.add('hidden');
-    });
+dropdownToggle2.on('mouseenter', function() {
+    $('#dropdownMenu3').addClass('hidden');
+    $('#dropdownMenu').addClass('hidden');
+});
 
-    dropdownMenu2.addEventListener('mouseleave', function() {
-        dropdownMenu2.classList.add('hidden');
-    });
+dropdownMenu2.on('mouseleave', function() {
+    dropdownMenu2.addClass('hidden');
+});
 
-    const dropdownToggle3 = document.getElementById("dropdownToggle3");
-    const dropdownMenu3 = document.getElementById("dropdownMenu3");
+const dropdownToggle3 = $('#dropdownToggle3');
+const dropdownMenu3 = $('#dropdownMenu3');
 
-    dropdownToggle3.addEventListener('mouseenter', function() {
-      dropdownMenu3.classList.remove('hidden');
-    });
+dropdownToggle3.on('mouseenter', function() {
+    dropdownMenu3.removeClass('hidden');
+});
 
-    dropdownToggle3.addEventListener('mouseenter', function() {
-      dropdownMenu2.classList.add('hidden');
-      dropdownMenu.classList.add('hidden');
-    });
+dropdownToggle3.on('mouseenter', function() {
+    $('#dropdownMenu2').addClass('hidden');
+    $('#dropdownMenu').addClass('hidden');
+});
 
-    dropdownMenu3.addEventListener('mouseleave', function() {
-        dropdownMenu3.classList.add('hidden');
-    });
+dropdownMenu3.on('mouseleave', function() {
+    dropdownMenu3.addClass('hidden');
+});
+
+const dropdownToggles = [
+  $('#dropdownToggle4'),
+  $('#dropdownToggle5'),
+  $('#dropdownToggle6'),
+  $('#dropdownToggle7'),
+  $('#dropdownToggle8'),
+  $('#dropdownToggle9'),
+  $('#dropdownToggle10'),
+  $('#dropdownToggle11'),
+];
+
+dropdownToggles.forEach(function(dropdownToggle) {
+  dropdownToggle.on('mouseenter', hideDropdownMenus);
+});
+
+function hideDropdownMenus() {
+  $('#dropdownMenu2').addClass('hidden');
+  $('#dropdownMenu').addClass('hidden');
+  $('#dropdownMenu3').addClass('hidden');
+}
 
 
 const swiperEl = document.querySelector('.mySwiper3')
