@@ -100,8 +100,14 @@ dropdownMenu3.on('mouseleave', function () {
 var dropdownToggles = [$('#dropdownToggle4'), $('#dropdownToggle5'), $('#dropdownToggle6'), $('#dropdownToggle7'), $('#dropdownToggle8'), $('#dropdownToggle9'), $('#dropdownToggle10'), $('#dropdownToggle11')];
 dropdownToggles.forEach(function (dropdownToggle) {
   dropdownToggle.on('mouseenter', hideDropdownMenus);
+  dropdownToggle.on('mouseleave', hideDropdownMenusl);
 });
 function hideDropdownMenus() {
+  $('#dropdownMenu2').addClass('hidden');
+  $('#dropdownMenu').addClass('hidden');
+  $('#dropdownMenu3').addClass('hidden');
+}
+function hideDropdownMenusl() {
   $('#dropdownMenu2').addClass('hidden');
   $('#dropdownMenu').addClass('hidden');
   $('#dropdownMenu3').addClass('hidden');

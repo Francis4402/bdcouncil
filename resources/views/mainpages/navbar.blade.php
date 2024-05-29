@@ -3,7 +3,7 @@
 ?>
 
 
-<div class="bg-[#333333] flex justify-center w-full h-full sticky top-0 customfont z-20" id="dropdownToggle4">
+<div class="bg-[#333333] flex justify-center w-full h-full sticky top-0 customfont z-20">
     <div class="container max-w-6xl">
         <div class="flex justify-between items-center ">
             <a href="/">

@@ -134,12 +134,19 @@ const dropdownToggles = [
 
 dropdownToggles.forEach(function(dropdownToggle) {
   dropdownToggle.on('mouseenter', hideDropdownMenus);
+  dropdownToggle.on('mouseleave', hideDropdownMenusl);
 });
 
 function hideDropdownMenus() {
   $('#dropdownMenu2').addClass('hidden');
   $('#dropdownMenu').addClass('hidden');
   $('#dropdownMenu3').addClass('hidden');
+}
+
+function hideDropdownMenusl() {
+    $('#dropdownMenu2').addClass('hidden');
+    $('#dropdownMenu').addClass('hidden');
+    $('#dropdownMenu3').addClass('hidden');
 }
 
 

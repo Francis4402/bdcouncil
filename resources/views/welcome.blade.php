@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
 
     </head>
-    <body class="antialiased">
+    <body class="antialiased" id="dropdownToggle4">
 
         @include('mainpages.navbar')
 
